@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+/* number styling */
+.number {
+
+}
+/* caption styling */
+.caption {
+
+}
+
+/* slideshow container styling */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* mySlides styling */
+.mySlides {
+  display: none;
+}
+
+/* fade styling */
+.fade {
+
+}

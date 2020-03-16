@@ -1,34 +1,47 @@
 <!--Slideshow Container -->
 <div class="slideshow-container">
   <!--images with caption and number -->
-  <div>
-    <div>1/5</div>
+  <div class="mySlides fade">
+    <div class="number">1/5</div>
     <img src="images/IMG_20191231_170229.jpg" alt="Santa Barbara Beach" style="width: 100%; filter: grayscale(100%);">
-    <div>Santa Barbara Beach</div>
+    <div class="caption">Santa Barbara Beach</div>
   </div>
 
-  <div>
-    <div>2/5</div>
+  <div class="mySlides fade">
+    <div class="number">2/5</div>
     <img src="images/IMG_20200222_162734.jpg" alt="Malibu Canyon" style="width: 100%; filter: grayscale(100%);">
-    <div>Malibu Canyon</div>
+    <div class="caption">Malibu Canyon</div>
   </div>
 
-  <div>
-    <div>3/5</div>
+  <div class="mySlides fade">
+    <div class="number">3/5</div>
     <img src="images/IMG_20200229_174635.jpg" alt="C-Street, Ventura" style="width: 100%; filter: grayscale(100%);">
-    <div>C-Street, Ventura</div>
+    <div class="caption">C-Street, Ventura</div>
   </div>
 
-  <div>
-    <div>4/5</div>
+  <div class="mySlides fade">
+    <div class="number">4/5</div>
     <img src="images/IMG_20200229_180121.jpg" alt="C-Street, Ventura" style="width: 100%; filter: grayscale(100%);">
-    <div>C-Street, Ventura</div>
+    <div class="caption">C-Street, Ventura</div>
   </div>
 
-  <div>
-    <div>5/5</div>
+  <div class="mySlides fade">
+    <div class="number">5/5</div>
     <img src="images/IMG_20200301_131532.jpg" alt="Ventura" style="width: 100%; filter: grayscale(100%); ">
-    <div>Ventura</div>
+    <div class="caption">Ventura</div>
   </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div>
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
 
 </div>

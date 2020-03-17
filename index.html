@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" type="text/css" href="css/styles.css"></link>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
 <!--Slideshow Container -->
 <div class="slideshow-container">
+  <h1 style="text-align: center;">North of LA</h1>
+
   <!--images with caption and number -->
   <div class="mySlides fade">
     <div class="number">1/5</div>
-    <img src="images/IMG_20191231_170229.jpg" alt="Santa Barbara Beach" style="width: 100%; filter: grayscale(100%);">
+    <img src="images/IMG_20191231_170229.jpg" alt="Leadbetter Beach" style="width: 100%; filter: grayscale(100%);">
     <div class="caption">Santa Barbara Beach</div>
   </div>
 
   <div class="mySlides fade">
     <div class="number">2/5</div>
     <img src="images/IMG_20200222_162734.jpg" alt="Malibu Canyon" style="width: 100%; filter: grayscale(100%);">
-    <div class="caption">Malibu Canyon</div>
+    <div class="caption">Solstice Canyon Loop</div>
   </div>
 
   <div class="mySlides fade">
     <div class="number">3/5</div>
     <img src="images/IMG_20200229_174635.jpg" alt="C-Street, Ventura" style="width: 100%; filter: grayscale(100%);">
-    <div class="caption">C-Street, Ventura</div>
+    <div class="caption">South C-Street, Ventura</div>
   </div>
 
   <div class="mySlides fade">
     <div class="number">4/5</div>
     <img src="images/IMG_20200229_180121.jpg" alt="C-Street, Ventura" style="width: 100%; filter: grayscale(100%);">
-    <div class="caption">C-Street, Ventura</div>
+    <div class="caption">North C-Street, Ventura</div>
   </div>
 
   <div class="mySlides fade">
     <div class="number">5/5</div>
     <img src="images/IMG_20200301_131532.jpg" alt="Ventura" style="width: 100%; filter: grayscale(100%); ">
-    <div class="caption">Ventura</div>
+    <div class="caption">Serra Cross</div>
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -40,7 +58,7 @@
 </div>
 <br>
 
-<div>
+<div style="text-align: center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
@@ -50,5 +68,8 @@
 
 </div>
 <script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <body>
 </html>

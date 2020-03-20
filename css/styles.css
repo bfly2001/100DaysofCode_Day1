@@ -25,6 +25,11 @@ h1 {
   font-size: xxx-large;
 }
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: xxx-large;
+}
+
 /* number styling */
 .number {
   color: #f2f2f2;
@@ -120,20 +125,30 @@ h1 {
   color: black;
   display: grid;
   grid-template-rows: 3fr;
+  margin: 10%;
+  text-align: justify;
 }
 
 #social-media {
   display: grid;
   grid-template-rows: 3fr;
+  margin: 10%;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: xxx-large;
 }
 
 #video {
   display: grid;
   grid-template-rows: 3fr;
+  margin: 10%;
+  text-align: justify;
 }
 
+video {
+  width: 100%;
+}
 
-
-
-
+.social-media-icon {
+  width: 30%;
 }
